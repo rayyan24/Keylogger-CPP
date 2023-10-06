@@ -60,7 +60,7 @@ void log(int key, char *fileName)
 int main()
 {
 // comment next line to show console while running
-    FreeConsole();
+//    FreeConsole();
     char filename[10]="log.txt";
     FILE*f;
     f = fopen(filename, "a+");
